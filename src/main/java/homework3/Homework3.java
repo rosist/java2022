@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Homework3 {
     public static void main(String[] args) {
         //task1
-        Scanner reader = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter three numbers.");
 
-        double x = reader.nextDouble();
-        double y = reader.nextDouble();
-        double z = reader.nextDouble();
+        double x = scan.nextDouble();
+        double y = scan.nextDouble();
+        double z = scan.nextDouble();
 
         if (x >= y){
             if(y >= z)
@@ -31,27 +31,30 @@ public class Homework3 {
         //task2
         System.out.println("\n \nEnter the length and width of the rectangle in centimeters:");
 
-        double x1 = reader.nextDouble();
-        double y1 = reader.nextDouble();
+        double x1 = scan.nextDouble();
+        double y1 = scan.nextDouble();
 
         double perimeter = 2 * (x1 + y1);
         double area = x1 * y1;
         System.out.println("The perimeter of the rectangle is " + perimeter + " cm");
         System.out.println("The area of the rectangle is " + area + " cm2");
 
+
         //task3
         System.out.println( "\nEnter a whole number of your choice:");
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
+
+        int a = scan.nextInt();
 
         if(a % 2 == 0){
             System.out.println("The number is even");
         }
             else {System.out.println("The number is odd");}
 
+
         //task4
         System.out.println("\nSelect a number for a day of the week:");
-        int dayOfTheWeek = scanner.nextInt();
+
+        int dayOfTheWeek = scan.nextInt();
 
         if (dayOfTheWeek == 1){
             System.out.println("Today is Monday.");
