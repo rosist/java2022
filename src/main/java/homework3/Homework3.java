@@ -43,14 +43,16 @@ public class Homework3 {
         System.out.println( "\nEnter a whole number of your choice:");
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
+
         if(a % 2 == 0){
             System.out.println("The number is even");
         }
             else {System.out.println("The number is odd");}
 
-
+        //task4
         System.out.println("\nSelect a number for a day of the week:");
         int dayOfTheWeek = scanner.nextInt();
+
         if (dayOfTheWeek == 1){
             System.out.println("Today is Monday.");
         }else if (dayOfTheWeek == 2){
