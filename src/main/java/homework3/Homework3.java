@@ -14,19 +14,19 @@ public class Homework3 {
 
         if (x >= y){
             if(y >= z)
-                System.out.print(x +" is the biggest number");
+                System.out.print(x +" is the greatest number");
             else if  (z >= x)
-                System.out.print(z +" is the biggest number");
+                System.out.print(z +" is the greatest number");
             else if (x > z)
-                System.out.print(x +" is the biggest number");}
+                System.out.print(x +" is the greatest number");}
 
         if (y > x){// In the three responses below, x is always before y
             if (z > y)
-                System.out.print(z +" is the biggest number");
+                System.out.print(z +" is the greatest number");
             else if (z > x)
-                System.out.print(y +" is the biggest number");
+                System.out.print(y +" is the greatest number");
             else if (x > z)
-                System.out.print(y +" is the biggest number");}
+                System.out.print(y +" is the greatest number");}
 
         //task2
         System.out.println("\n \nEnter the length and width of the rectangle in centimeters:");
