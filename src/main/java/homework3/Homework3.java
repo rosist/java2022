@@ -71,7 +71,8 @@ public class Homework3 {
         } else if (dayOfTheWeek == 7) {
             System.out.println("Today is Sunday.");
         }else {
-            System.out.println("Invalid number entered. Please, choose a valid number from 1 to 7 for the day of the week");
+            System.out.println("Invalid number entered. Please, choose a valid number from 1 to 7 for " +
+                    "the day of the week");
         }
 
     }
