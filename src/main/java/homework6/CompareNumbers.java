@@ -12,7 +12,6 @@ public class CompareNumbers {
         System.out.println(positiveNumbers(a, b, c) + " numbers are positive");
         System.out.println(equalNumbers(a, b, c) + " numbers are equal");
     }
-
     public static int positiveNumbers(int a, int b, int c) {
         if (a > 0 && b > 0 && c > 0) {
             return (3);
