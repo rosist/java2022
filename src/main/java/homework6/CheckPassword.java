@@ -18,6 +18,5 @@ public class CheckPassword {
         String regex = "^.*(?=.{8,})(?=..*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%!?^&+=]).*$";
         return password.matches(regex);
     }
-
 }
 
