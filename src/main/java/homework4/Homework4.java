@@ -22,19 +22,15 @@ public class Homework4 {
 
         //task 3
         int evenSum = 0;
+        int oddSum = 0;
         for (int i = 0; i < array.length; i++)
             if (i % 2 == 0) {
                 evenSum = evenSum + array[i];
-            }
-        System.out.printf("%nThe sum of even numbers is %d%n", evenSum);
-
-        int oddSum = 0;
-        for (int i = 0; i < array.length; i++)
-            if (i % 2 != 0) {
+            } else {
                 oddSum = oddSum + array[i];
             }
+        System.out.printf("%nThe sum of even numbers is %d%n", evenSum);
         System.out.printf("The sum of odd numbers is %d%n", oddSum);
-
 
         //task 4
         {
@@ -43,8 +39,7 @@ public class Homework4 {
             int n = scanner.nextInt();
             int[] newArray = new int[n];
 
-            int i;
-            for (i = 0; i < newArray.length; i++) {
+            for (int i = 0; i < newArray.length; i++) {
                 newArray[i] = i + 1;
                 System.out.println(newArray[i]);
             }
@@ -52,7 +47,7 @@ public class Homework4 {
 
             //task 5
             System.out.println("\nThe numbers that are not divisible by 3 and 7 are: ");
-            for (i = 0; i <= newArray.length; i++) {
+            for (int i = 0; i <= newArray.length; i++) {
                 if ((i % 3 == 0) || (i % 7 == 0)) {
                     continue;
                 }
@@ -60,7 +55,6 @@ public class Homework4 {
             }
 
             //task 6
-
             System.out.println("\nPlease enter a length for the Fibonacci sequence: ");
             Scanner scan = new Scanner(System.in);
             int a = scan.nextInt();
@@ -69,10 +63,10 @@ public class Homework4 {
             values[0] = 0;
             values[1] = 1;
 
-            for (i = 2; i < a; i++) {
+            for (int i = 2; i < a; i++) {
                 values[i] = values[i - 1] + values[i - 2];
             }
-            for (i = 0; i < a; i++) {
+            for (int i = 0; i < a; i++) {
                 System.out.println(values[i]);
             }
         }
