@@ -11,5 +11,6 @@ public class MathHighestNumber {
         int num3 = sc.nextInt();
         int max = Math.max(Math.max(num1, num2), num3);
         System.out.println(max + " is the highest number.");
+
     }
 }
