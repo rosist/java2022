@@ -69,11 +69,12 @@ public class Homework4 {
             values[0] = 0;
             values[1] = 1;
 
-            for(i = 2; i < a; i++){
-                values[i] = values[i - 1] + values[i - 2];}
-            for(i = 0; i < a; i++){
-                System.out.println(values[i]);}
-
+            for (i = 2; i < a; i++) {
+                values[i] = values[i - 1] + values[i - 2];
+            }
+            for (i = 0; i < a; i++) {
+                System.out.println(values[i]);
+            }
         }
     }
 }
