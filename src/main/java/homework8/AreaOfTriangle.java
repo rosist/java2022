@@ -3,7 +3,6 @@ package homework8;
 import java.util.Scanner;
 
 public class AreaOfTriangle {
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the length of the first side of the triangle:");

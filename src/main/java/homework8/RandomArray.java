@@ -11,7 +11,7 @@ public class RandomArray {
         int n = scanner.nextInt();
         int[] array = new int[n];
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt();
+            array[i] = random.nextInt(1,100);
             System.out.println(array[i]);
         }
     }
